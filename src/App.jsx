@@ -1,4 +1,6 @@
 import "./App.css";
+import questionsData from './questions.json';
+import Board from './components/Board';
 
 function App() {
   return (
@@ -13,6 +15,11 @@ function App() {
       <p>
         Du kan endre koden i <code>src/App.jsx</code>
       </p>
+
+    <div className="game-screen">
+            <h1 className="game-title">🎯 Jeopardy</h1>
+            <Board />
+        </div>
     </div>
   );
 }
