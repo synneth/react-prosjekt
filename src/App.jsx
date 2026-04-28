@@ -17,7 +17,7 @@ function App() {
       </p>
 
     <div className="game-screen">
-            <h1 className="game-title">🎯 Jeopardy</h1>
+            <h1 className="game-title">🎯 JIPPIYAY </h1>
         </div>
     </div>
   );
