@@ -18,7 +18,6 @@ function App() {
 
     <div className="game-screen">
             <h1 className="game-title">🎯 Jeopardy</h1>
-            <Board />
         </div>
     </div>
   );
